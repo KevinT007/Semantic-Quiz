@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz</title>
-</head>
-<body>
-   <form>
-  First Name<input type="text" id="fname" name="fname"><br>
-  Last Name<input type="text" id="lname" name="lname"><br>
-  Birthday:<label for="birthday"></label>
-  <input type="date" id="birthday" name="birthday">
-   </form> 
-</body>
+  </head>
+  <body>
+    <form>
+      <h2>Tell Us About Yourself</h2>
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="fname" />
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lname" />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" />
+      <label for="birthday">Birthday</label>
+      <input type="date" id="birthday" name="birthday" />
+      <br />
+      <h2>Have you been in the R2H Program before?</h2>
+      <input type="radio" id="yes" name="pickone" value="yes" />
+      <label for="yes">Yes</label>
+      <br />
+      <input type="radio" id="no" name="pickone" value="no" />
+      <label for="no">No</label>
+      <br />
+      <input type="radio" id="Maybe" name="pickone" value="Maybe" />
+      <label for="Maybe">None of Your Business</label>
+      <br />
+      <h2>Random Questions</h2>
+      <label for="color">Favorite Color</label>
+      <input type="color" id="favcolor" name="favcolor" /><br />
+      <h2>What's Your Mode of Transportation</h2>
+      <input type="checkbox" id="vehicle" name="vehicle1" value="Bike" />
+      <label for="vehicle1"> Bike</label><br />
+      <input type="checkbox" id="vehicle" name="vehicle2" value="Car" />
+      <label for="vehicle2"> Car</label><br />
+      <input type="checkbox" id="vehicle" name="vehicle3" value="Walk" />
+      <label for="vehicle3"> Walk</label>
+    </form>
+  </body>
 </html>
